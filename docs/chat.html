@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Bot</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="chat-page">
+    <header>
+        <nav class="navbar">
+            <div class="logo">ChatBot</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="chat-container">
+        <div class="chat-background"></div>
+        <div class="chat-window glass">
+            <div class="chat-messages" id="chatMessages">
+                <!-- Example messages -->
+                <div class="message chatbot">
+                    <div class="bubble">Hello! How can I assist you today?<span class="timestamp">10:00 AM</span></div>
+                </div>
+                <div class="message user">
+                    <div class="bubble">I need some help with my account.<span class="timestamp">10:01 AM</span></div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
